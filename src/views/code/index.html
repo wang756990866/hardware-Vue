@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+	<head>
+		<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+		<title>硬件维护系统——硬件详情</title>
+    <!-- 引入样式 -->
+    <link rel="stylesheet" href="https://unpkg.com/element-ui/lib/theme-chalk/index.css">
+    <!-- 引入组件库 -->
+    <script src="https://unpkg.com/element-ui/lib/index.js"></script>
+    <!-- 生产环境版本，优化了尺寸和速度 -->
+    <script src="https://cdn.jsdelivr.net/npm/vue"></script>
+    <style>
+      html,body{
+        margin: 0;
+        padding: 0;
+      }
+      div{
+        text-align: center;
+      }
+      h1{
+        font-size: 4rem;
+      }
+      .col-md-6{
+        font-size: 3rem;
+        margin-top: 1rem;
+      }
+      .col-md-4{
+        font-size: 3rem;
+        margin-top: 1rem;
+      }
+      .bgrgba{
+        background-color: rgba(0,0,0,0.3);
+      }
+      .bd1{
+        border: 1px solid red;
+      }
+      .logoImg{
+        
+      }
+    </style>
+	</head>
+	<body>
+    <div id="content">
+      <el-row>
+        <el-col :span="24" class="">
+          <img src="http://syy-vr.com:8084/hardware/codeBg/timg.jpg" style="width: 100%;height: 12rem;"/>
+        </el-col>
+      </el-row>
+      <el-row>
+        <el-col :span="12" class="bd1">
+          <img src="http://syy-vr.com:8084/hardware/codeBg/logo.png" class="logoImg"/>
+        </el-col>
+        <el-col :span="12" class="bd1">
+          <span>&nbsp;</span>
+        </el-col>
+      </el-row>
+      <div class="row">
+        <div class="col-md-12" style="padding: 0;margin: 0;">
+          
+        </div>
+        <div class="col-md-2 bd1">
+          
+        </div>
+        <div class="col-md-10"><</div>
+        <div class="col-md-12"><h1>二维码项目</h1></div>
+        <div class="col-md-12" style="height: 2rem;">&nbsp;</div>
+        <div class="col-md-6 bgrgba">
+          <span>项目名称：</span>
+        </div>
+        <div class="col-md-6 bgrgba">
+          <span>XX纪委</span>
+        </div>
+        
+        <div class="col-md-6">
+          <span>硬件名称：</span>
+        </div>
+        <div class="col-md-6">
+          <span>XX主机</span>
+        </div>
+        
+        <div class="col-md-6 bgrgba">
+          <span>硬件状态：</span>
+        </div>
+        <div class="col-md-6 bgrgba">
+          <span>正常运行</span>
+        </div>
+        
+        <div class="col-md-6">
+          <span>硬件安装时间：</span>
+        </div>
+        <div class="col-md-6">
+          <span>2019.05.15</span>
+        </div>
+        
+        <div class="col-md-12" style="height: 2rem;">&nbsp;</div>
+        <div class="col-md-3" style="height: 2rem;">&nbsp;</div>
+        <div class="col-md-6">
+          <button type="button" class="btn btn-primary btn-lg btn-block" style="width: 100%;height: 100%;font-size: 3rem;background-color: #1482F0;">报修</button>
+        </div>
+      </div>
+    </div>
+	</body>
+  <script>
+    new Vue({
+      el: '#content',
+      data: function() {
+        return { visible: false }
+      }
+    })
+  </script>
+</html>
