@@ -22,7 +22,7 @@
     "normalize.css": "^8.0.1",
     "nprogress": "^0.2.0",
     "pinyin": "^2.9.0",
-    "qs": "^6.7.0",
+    "qs": "^6.7.3",
     "svg-icon": "^0.8.2",
     "url-search-params-polyfill": "^6.0.0",
     "vue": "^2.5.2",
